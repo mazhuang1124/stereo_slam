@@ -115,6 +115,8 @@ roslaunch stereo_slam run_stereo.launch
         <td ><center><img src="./assets/OptimizePoseMap_02.png" >图3 OptimizePoseMap_02 </center></td>
         <td ><center><img src="./assets/OptimizePoseOnly_02.png" >图4 OptimizePoseOnly_02</center></td>
     </tr>
+<table>
+    
 ## Acknowledgement
 
-[SLAM十四讲 ch13](https://github.com/gaoxiang12/slambook2)
+[SLAM十四讲](https://github.com/gaoxiang12/slambook2)
