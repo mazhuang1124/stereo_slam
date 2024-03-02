@@ -1,0 +1,11 @@
+<!-- The launch file is used to run the visual odometry -->
+
+<launch>
+
+    <rosparam command="load" file="$(find stereo_slam)/config/params.yaml" />
+
+    <node name="stereo_slam" pkg="stereo_slam" type="run_stereo" output="screen"/>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find stereo_slam)/config/run_stereo.rviz"/>
+
+</launch>
